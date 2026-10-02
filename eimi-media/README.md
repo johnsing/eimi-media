@@ -7,7 +7,7 @@ Community media portal built with **React 19 + Vite + Supabase**.
 - **Public browsing** — no account required to explore the app
 - Community feed with infinite scroll and search
 - Rich-text post editor (TipTap)
-- Optional accounts: profiles, admin panel, post management
+- Public dashboard with community stats (management actions still require an admin sign-in)
 - Light/dark theme with system preference detection
 
 ## Tech Stack

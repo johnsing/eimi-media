@@ -6,7 +6,8 @@ import {
   FaVideo, 
   FaMusic,
   FaPlusCircle,
-  FaNewspaper
+  FaNewspaper,
+  FaChartBar
 } from 'react-icons/fa'
 import { FaMessage } from 'react-icons/fa6'
 
@@ -299,7 +300,8 @@ const FloatingNavbar = () => {
     { path: '/library', icon: FaBook, label: 'Library' },
     { path: '/videos', icon: FaVideo, label: 'Videos' },
     { path: '/audio', icon: FaMusic, label: 'Audio' },
-    { path: '/feed', icon: FaNewspaper, label: 'Feed' }
+    { path: '/feed', icon: FaNewspaper, label: 'Feed' },
+    { path: '/admin', icon: FaChartBar, label: 'Dashboard' }
   ]
 
   return (
